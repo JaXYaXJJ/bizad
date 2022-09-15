@@ -1,0 +1,41 @@
+.card {
+    background-color: #E4DCCF;
+    margin-top: 20px;
+    width: 270px;
+    border: 1px solid #E4DCCF !important;
+  }
+  
+.card > .txt-container > p {
+    color: #E4DCCF ;
+    display: flex;
+    justify-content: center;
+    height: 30px;
+    width: 130px;
+    background-color: #576F72;
+    opacity: 0.7;
+  }
+
+.card-title {
+    text-decoration: underline #7D9D9C 5px;
+}
+  
+.orderBtn {
+    text-decoration: none;
+    background-color: #576F72;
+    color: #E4DCCF;
+    border-radius: 3px;
+    padding: 5px 20px;
+    border: none;
+  }
+  
+.orderBtn:hover {
+    background-color: #7D9D9C;
+    color: #F0EBE3;
+    border-radius: 3px;
+  }
+
+  /* @media screen and (max-width: 900px) {
+    .card {
+      width: 100%;
+    }
+  } */

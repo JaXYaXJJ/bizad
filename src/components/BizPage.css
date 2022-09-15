@@ -1,0 +1,71 @@
+.topContainer {
+  height: 200px;
+  background-color: #7d9d9c;
+  color: #f0ebe3;
+}
+
+.topContainer > h1 {
+  text-decoration: underline #576f72 10px;
+}
+
+select {
+  width: 300px;
+  height: 40px;
+  background-color: #576f72;
+  color: #e4dccf;
+  border: none;
+  border-radius: 4px;
+}
+
+select:hover {
+  background-color: #7d9d9c;
+  color: #f0ebe3;
+  border: none;
+}
+
+input {
+  width: 300px;
+  height: 40px;
+  background-color: #576f72;
+  color: #e4dccf;
+  border: none;
+  border-radius: 4px;
+}
+
+input:hover {
+  background-color: #7d9d9c !important;
+  color: #f0ebe3 !important;
+  border: none;
+}
+
+input:focus {
+  outline: none;
+}
+
+.styleBtn {
+  height: 40px;
+  width: 40px;
+  background-color: #576f72;
+  color: #e4dccf;
+  padding: 5px 10px;
+  border: none;
+}
+
+.styleBtn:hover {
+  background-color: #7d9d9c;
+  color: #f0ebe3;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  justify-content: space-around;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+

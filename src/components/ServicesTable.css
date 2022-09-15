@@ -1,0 +1,42 @@
+.companyLogo {
+    text-decoration: underline #576f72 10px;
+}
+
+select {
+    width: 150px !important;
+}
+
+input {
+    width: 300px !important;
+    background-color: #576f72 !important;
+    color: #e4dccf !important;
+    border: none !important;
+}
+
+input:focus, input.form-control:focus {
+    box-shadow: none;
+}
+
+input:hover {
+    background-color: #7d9d9c !important;
+    color: #f0ebe3 !important;
+    border: none !important;
+}
+
+.serviceBtn {
+    height: 40px;
+    width: 40px;
+    background-color: #576f72;
+    color: #e4dccf;
+    padding: 5px 10px;
+    border: none;
+}
+
+.serviceBtn:hover {
+    background-color: #7d9d9c;
+    color: #f0ebe3;
+}
+
+input::placeholder {
+    color: #e4dccf !important;
+}
