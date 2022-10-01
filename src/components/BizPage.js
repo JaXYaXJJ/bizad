@@ -54,10 +54,10 @@ function BizPage(props) {
         <SearchBar search={searchBiz} />
       </div>
       <div className="topBtns">
-        <button onClick={(e) => setDispley("list")}
+        <button onClick={() => setDispley("list")}
         className="styleBtn rounded mx-2">
           <i class="bi bi-text-center"></i></button>
-        <button onClick={(e) => setDispley("grid")}
+        <button onClick={() => setDispley("grid")}
         className="styleBtn rounded">
           <i class="bi bi-grid-3x3"></i></button>
       </div>

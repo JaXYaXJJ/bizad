@@ -4,9 +4,8 @@
   color: #f0ebe3;
 }
 
-.topContainer > h1 {
-  -webkit-text-decoration: underline #576f72 10px;
-          text-decoration: underline #576f72 10px;
+.topContainer>h1 {
+  text-decoration: underline #576f72 10px;
 }
 
 select {
@@ -61,18 +60,22 @@ input:focus {
   display: grid;
   grid-template-columns: auto auto auto auto;
   justify-content: space-around;
-}
-@media screen and (min-width: 500px) {
-  .grid .card {
-    width: 270px;
+
+  @media screen and (min-width: 500px) {
+    .card {
+      width: 270px;
+    }
   }
 }
 
-.list .card {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
+.list {
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+
+    .card-img-top {
+      width: 200px;
+    }
+  }
 }
-.list .card .card-img-top {
-  width: 200px;
-}/*# sourceMappingURL=BizPage.css.map */

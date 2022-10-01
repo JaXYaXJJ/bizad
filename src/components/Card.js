@@ -2,7 +2,7 @@ import "./Card.css";
 
 function Card(props) {
   return (
-    <div className="card">
+    <div className="card mx-2">
       <div class="txt-container position-relative">
         <p class="position-absolute top-0 end-0 my-3">{props.bizCategory}</p>
         <p class="position-absolute bottom-0">{props.imgTxtDown}</p>

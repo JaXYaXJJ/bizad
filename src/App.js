@@ -143,16 +143,13 @@ function App() {
     },
   ];
 
-  const categories = cards.map((card) => card.category);
-  var uniqueCategories = [...new Set(categories)];
-
   return (
     <>
       <Header name="BizAd" />
 
       <Routes>
         <Route path="/" element={<BizPage cards={cards}/>} />
-        <Route path="/services" element={<ServicesTable cards={uniqueCategories}/>} />
+        <Route path="/services" element={<ServicesTable />} />
         <Route path="/about" element={<About />} />
       </Routes>
     </>

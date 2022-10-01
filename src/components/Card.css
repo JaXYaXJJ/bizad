@@ -1,7 +1,6 @@
 .card {
     background-color: #E4DCCF;
     margin-top: 20px;
-    width: 270px;
     border: 1px solid #E4DCCF !important;
   }
   
@@ -33,9 +32,3 @@
     color: #F0EBE3;
     border-radius: 3px;
   }
-
-  /* @media screen and (max-width: 900px) {
-    .card {
-      width: 100%;
-    }
-  } */

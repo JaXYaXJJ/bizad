@@ -4,9 +4,9 @@ import UserServiceChoice from "./UserServiceChoice";
 import Status from "./Status";
 import "./ServicesTable.css";
 
-function ServicesTable(props) {
+function ServicesTable() {
   const [services, setServices] = useState([]);
-  const [notification, setNotification] = useState("");
+  const [notification, setNotification] = useState();
   const [status, setStatus] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -63,7 +63,7 @@ function ServicesTable(props) {
         </h3>
       </div>
       <div className="container d-flex justify-content-between p-4">
-
+        
         <select className="rounded" value={notification} onChange={(e) => setNotification(e.target.value)}>
             <option>All</option>
             <option>Email</option>
@@ -73,6 +73,7 @@ function ServicesTable(props) {
         </select>
 
         <select className="rounded mx-2" value={status} onChange={(e) => setStatus(e.target.value)}>
+            <option>Status</option>
             <option>Enable</option>
             <option>Disable</option>
         </select>
@@ -108,9 +109,9 @@ function ServicesTable(props) {
       <table className="table table-hover">
         <thead>
           <tr>
+            <th>Date</th>
             <th>Notification</th>
             <th>Status</th>
-            <th>Date</th>
             <th>Name</th>
             <th>Phone</th>
             <th>Email</th>
