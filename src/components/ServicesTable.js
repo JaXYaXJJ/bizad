@@ -1,12 +1,11 @@
 import { useState } from "react";
 import Joi from "joi";
-import UserServiceChoice from "./UserServiceChoice";
 import Status from "./Status";
 import "./ServicesTable.css";
 
 function ServicesTable() {
   const [services, setServices] = useState([]);
-  const [notification, setNotification] = useState();
+  const [notification, setNotification] = useState("");
   const [status, setStatus] = useState("");
   const [name, setName] = useState("");
   const [phone, setPhone] = useState("");
@@ -106,7 +105,7 @@ function ServicesTable() {
 
       <div className="text-danger">{addErr}</div>
 
-      <table className="table table-hover">
+      <table className="table table-hover container">
         <thead>
           <tr>
             <th>Date</th>
@@ -122,9 +121,7 @@ function ServicesTable() {
           {services.map((service) => (
             <tr key={service.id}>
               <td>{service.date}</td>
-              <td>
-                <UserServiceChoice opt={service.notification}/>
-              </td>
+              <td>{service.notification}</td>
               <td>
                 <Status type={service.status}/>
               </td>
@@ -135,7 +132,7 @@ function ServicesTable() {
                 <button className="serviceBtn rounded" onClick={() => deleteService(service)}>
                     <i class="bi bi-trash3"></i>
                 </button>
-               </td>
+              </td>
             </tr>
           ))}
         </tbody>
