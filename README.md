@@ -5,16 +5,16 @@
 </h4>
 
 ###### Main Page
-<img src="https://github.com/JaXYaXJJ/bizad/assets/98427978/8dff1050-568d-46bf-9783-335044b50073" width="650">
+<img src="https://github.com/JaXYaXJJ/bizad/assets/98427978/8dff1050-568d-46bf-9783-335044b50073" width="850">
 
 ###### BizAd Cards
-<img src="https://github.com/JaXYaXJJ/bizad/assets/98427978/036c066f-2fbd-4bb3-87d4-db6dd3bd6aa1" width="650">
+<img src="https://github.com/JaXYaXJJ/bizad/assets/98427978/036c066f-2fbd-4bb3-87d4-db6dd3bd6aa1" width="850">
 
 ###### Search by Category
-<img src="https://github.com/JaXYaXJJ/bizad/assets/98427978/124853d3-9251-4d01-89fc-2e8aa640fcbf" width="650">
+<img src="https://github.com/JaXYaXJJ/bizad/assets/98427978/124853d3-9251-4d01-89fc-2e8aa640fcbf" width="850">
 
 ###### BizAd Notification Center
-<img src="https://github.com/JaXYaXJJ/bizad/assets/98427978/6199f393-be59-489e-b77f-3b9bcda38078" width="650">
+<img src="https://github.com/JaXYaXJJ/bizad/assets/98427978/6199f393-be59-489e-b77f-3b9bcda38078" width="850">
 
 ## How to use this code on your own?
 
